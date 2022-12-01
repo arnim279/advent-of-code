@@ -1,0 +1,15 @@
+{
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"start": "npm run build && node dist/index.js"
+	},
+	"dependencies": {
+		"typescript": "^4.9.3"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.10",
+		"prettier": "^2.8.0",
+		"prettier-plugin-organize-imports": "^3.2.1"
+	}
+}
