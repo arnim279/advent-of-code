@@ -16,6 +16,6 @@ for (let day of days) {
 			exit(1);
 		});
 
-	console.log(`Solution for day ${day}, part 1: ${part1(input)}\n`);
+	console.log(`Solution for day ${day}, part 1: ${part1(input)}`);
 	console.log(`Solution for day ${day}, part 2: ${part2(input)}\n`);
 }
