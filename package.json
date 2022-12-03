@@ -2,7 +2,8 @@
 	"type": "module",
 	"scripts": {
 		"build": "tsc",
-		"start": "npm run build && node dist/index.js"
+		"start": "npm run build && node dist/index.js",
+		"new": "npm run build && node dist/new-day.js"
 	},
 	"dependencies": {
 		"typescript": "^4.9.3"
